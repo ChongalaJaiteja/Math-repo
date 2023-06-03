@@ -7,7 +7,7 @@ int factorial(int n,int f = 1) {
 
 int main() {
     int n;
-    cout << "Enter a number" << endl;
+    cout << "Enter a number: " << endl;
     cin >> n;
     cout << "The factorial of " << n << "is " << factorial(n) << endl;
 }
